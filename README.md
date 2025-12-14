@@ -1,17 +1,15 @@
-# FieldCam Website
+# Om Apps Studio - Developer Website
 
-This is the official website for FieldCam - Professional Field Photography App.
+A professional website for Google Play Store verification, showcasing Om Apps Studio and the FieldCam app.
 
 ## Structure
 
 ```
-website/
-├── index.html          # Homepage
-├── features.html       # Detailed features page
-├── privacy.html       # Privacy policy
-├── about.html         # About page
+omwebsite/
+├── index.html          # Main homepage
+├── privacy.html        # Privacy Policy page
 ├── css/
-│   └── style.css      # Main stylesheet
+│   └── style.css      # Stylesheet
 ├── js/
 │   └── script.js      # JavaScript functionality
 └── README.md          # This file
@@ -20,59 +18,42 @@ website/
 ## Features
 
 - **Responsive Design**: Works on desktop, tablet, and mobile devices
-- **Modern UI**: Clean, professional design with smooth animations
-- **SEO Optimized**: Proper meta tags and semantic HTML
-- **Fast Loading**: Optimized CSS and JavaScript
-- **Accessible**: Follows web accessibility best practices
-
-## Customization
-
-### Update Contact Information
-
-Edit the following files to update contact information:
-- `index.html` - Footer section
-- `privacy.html` - Contact section
-- `about.html` - Contact section
-
-### Update GitHub Links
-
-Replace `yourusername` with your actual GitHub username in:
-- All HTML files (footer and links)
-- `privacy.html` (GitHub links)
-- `about.html` (GitHub links)
-
-### Update Email
-
-Replace `support@fieldcam.app` with your actual email in all HTML files.
-
-### Add Screenshots
-
-Add app screenshots to the homepage:
-1. Create an `images/` directory
-2. Add screenshot files
-3. Update `index.html` to reference the images
+- **Professional Layout**: Clean, modern design suitable for Google Play verification
+- **Complete Content**: All required sections including:
+  - Developer information
+  - App description and features
+  - Permissions explanation
+  - Privacy Policy
+  - Contact information
+  - Ads disclosure
 
 ## Deployment
 
-### GitHub Pages
+### Option 1: GitHub Pages (Recommended)
 
-1. Push the website directory to your repository
-2. Go to repository Settings > Pages
-3. Select source branch and `/website` folder
-4. Save and your site will be live at `https://yourusername.github.io/FieldCam/`
+1. Create a new GitHub repository
+2. Upload all files from the `omwebsite` folder
+3. Go to repository Settings > Pages
+4. Select the main branch and `/root` folder
+5. Your site will be available at `https://yourusername.github.io/repository-name`
 
-### Custom Domain
+### Option 2: Netlify
 
-1. Add a `CNAME` file with your domain name
-2. Configure DNS settings
-3. Update GitHub Pages settings
+1. Create a Netlify account
+2. Drag and drop the `omwebsite` folder
+3. Your site will be live instantly
 
-### Other Hosting
+### Option 3: Any Web Hosting
 
-Upload all files to your web hosting provider:
-- Static hosting (Netlify, Vercel, etc.)
-- Traditional web hosting
-- CDN services
+1. Upload all files to your web hosting provider
+2. Ensure `index.html` is in the root directory
+3. Your site will be accessible via your domain
+
+## Customization
+
+- Update colors in `css/style.css` by modifying CSS variables in `:root`
+- Modify content in `index.html` and `privacy.html`
+- Add more pages by creating new HTML files and linking them in navigation
 
 ## Browser Support
 
@@ -80,9 +61,15 @@ Upload all files to your web hosting provider:
 - Firefox (latest)
 - Safari (latest)
 - Edge (latest)
-- Mobile browsers (iOS Safari, Chrome Mobile)
+- Mobile browsers
 
-## License
+## Contact
 
-Same license as the main FieldCam project (MIT License).
+For questions or support:
+- Email: omprakashjena22@gmail.com
+- Developer: Om Apps Studio
+
+---
+
+© 2024 Om Apps Studio. All rights reserved.
 
